@@ -1,5 +1,3 @@
-
-
 meta:
 environment: python
 toolchain:
@@ -9,4 +7,5 @@ build:
 requirementsPath: requirements.txt
 run:
 scriptName: resume.py
+
 persistenceMount: /data

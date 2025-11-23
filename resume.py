@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 import requests
 from bs4 import BeautifulSoup
 import re
@@ -301,4 +298,5 @@ async def main():
         await tg_client.disconnect()
 
 if __name__ == "__main__":
+
     asyncio.run(main())

@@ -1,11 +1,10 @@
 meta:
-environment: python
-toolchain:
-name: pip
-version: 3.10
-build:
-requirementsPath: requirements.txt
-run:
-scriptName: resume.py
-persistenceMount: /data
-
+  environment: python
+  toolchain:
+    name: pip
+    version: 3.10
+  build:
+    requirementsPath: requirements.txt
+  run:
+    scriptName: resume.py
+    persistenceMount: /data
